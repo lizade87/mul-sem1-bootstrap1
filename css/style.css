@@ -1,3 +1,39 @@
+/* Container styling */
+.button-container {
+    display: flex;
+    justify-content: space-around; /* Distribute buttons with equal space */
+    flex-wrap: wrap; /* Wrap buttons to a new line if they overflow */
+    padding: 20px; /* Optional padding around the button area */
+    gap: 10px; /* Optional gap if you want additional spacing */
+}
+
+/* Button styling (optional) */
+.btn {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
 /*
  * Write your own styles in this file
  */
+/* Center carousel container */
+.carousel-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60vh;
+}
+
+/* Carousel styling */
+.carousel-item img {
+    object-fit: cover; /* Ensures images cover the carousel area without distortion */
+    width: 100%;       /* Makes images take up the full width */
+    max-height: 70vh;  /* Adjusts the maximum height relative to the viewport */
+}
+
+/* Button container styling */
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 10px;
+}
